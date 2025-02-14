@@ -31,7 +31,11 @@
   --dl-radius-radius-buttonradius: 24px;
   --dl-space-space-oneandhalfunits: 24px;
 }
- 
+
+/* body{
+  display: none;
+} */
+
 .button {
   color: var(--dl-color-theme-neutral-dark);
   display: inline-block;
@@ -546,6 +550,19 @@
   text-transform: none;
   text-decoration: none;
 }
+
+.head{
+  border-radius: 3%;
+  border-bottom: 1px solid #b5b3b3;
+}
+/* .ab{
+  display: none;
+}
+
+.thq-link:hover + .ab{
+  display: block;
+
+} */
  
 @media(max-width: 991px) {
   .thq-grid-4 {
